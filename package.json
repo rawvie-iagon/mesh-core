@@ -32,13 +32,13 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@meshsdk/common": "1.6.14",
-    "@meshsdk/core-csl": "1.6.14",
-    "@meshsdk/core-cst": "1.6.14",
-    "@meshsdk/provider": "1.6.14",
-    "@meshsdk/react": "1.6.14",
-    "@meshsdk/transaction": "1.6.14",
-    "@meshsdk/wallet": "1.6.14"
+    "@meshsdk/common": "git+https://github.com/rawvie-iagon/mesh-common.git",
+    "@meshsdk/core-csl": "git+https://github.com/rawvie-iagon/mesh-core-csl.git",
+    "@meshsdk/core-cst": "git+https://github.com/rawvie-iagon/mesh-core-cst.git",
+    "@meshsdk/provider": "git+https://github.com/rawvie-iagon/mesh-provider.git",
+    "@meshsdk/react": "git+https://github.com/rawvie-iagon/mesh-react.git",
+    "@meshsdk/transaction": "git+https://github.com/rawvie-iagon/mesh-transaction.git",
+    "@meshsdk/wallet": "git+https://github.com/rawvie-iagon/mesh-wallet.git"
   },
   "prettier": "@meshsdk/configs/prettier",
   "publishConfig": {
